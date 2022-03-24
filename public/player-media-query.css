@@ -1,0 +1,253 @@
+/*@media all and (max-width: 350px) {*/
+    .player-xsm .p-b-sec-1 .heart-track>.material-icons,
+    .player-xsm .p-b-sec-1 .p-i-p>.material-icons {
+        font-size: 20px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-title {
+        padding-top: 10px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-title .track-tile-text {
+        font-size: 18px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .time-slider {
+        padding-top: 10px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .time-slider>.time-disp {
+        font-size: 13px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .track-op {
+        padding-top: 10px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .track-op>.track-play-pause {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .track-op>.track-next>.material-icons {
+        font-size: 35px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .track-op>.track-prev>.material-icons {
+        font-size: 35px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .track-op>.track-play-pause .material-icons {
+        font-size: 55px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .vol-ctrl {
+        padding-top: 30px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-up>.material-icons {
+        font-size: 17px;
+    }
+
+    .player-xsm .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-down>.material-icons {
+        font-size: 17px;
+    }
+/*}*/
+
+/*@media all and (min-width: 350px) and (max-width: 480px) {*/
+    .player-sm .p-b-sec-1 .heart-track>.material-icons,
+    .player-sm .p-b-sec-1 .p-i-p>.material-icons {
+        font-size: 25px;
+    }
+
+    .player-sm .p-b-sec-2>.track-title .track-tile-text {
+        font-size: 20px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .time-slider>.time-disp {
+        font-size: 15px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .track-op>.track-play-pause {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .track-op>.track-next>.material-icons {
+        font-size: 38px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .track-op>.track-prev>.material-icons {
+        font-size: 38px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .track-op>.track-play-pause .material-icons {
+        font-size: 65px;
+    }
+/*}*/
+
+/*@media all and (min-width: 480px) and (max-width: 768px) {*/
+    .player-lg .p-b-sec-1 .heart-track>.material-icons,
+    .player-lg .p-b-sec-1 .p-i-p>.material-icons {
+        font-size: 30px;
+    }
+
+    .player-lg .p-b-sec-2>.track-title .track-tile-text {
+        font-size: 22px;
+    }
+
+    .player-lg .p-b-sec-2>.track-ctrl .time-slider>.time-disp {
+        font-size: 17px;
+    }
+
+    .player-lg .p-b-sec-2>.track-ctrl .track-op>.track-play-pause {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .player-lg .p-b-sec-2>.track-ctrl .track-op>.track-next>.material-icons {
+        font-size: 43px;
+    }
+
+    .player-lg .p-b-sec-2>.track-ctrl .track-op>.track-prev>.material-icons {
+        font-size: 43px;
+    }
+
+    .player-lg .p-b-sec-2>.track-ctrl .track-op>.track-play-pause .material-icons {
+        font-size: 75px;
+    }
+/*}*/
+
+/*@media all and (min-width: 768px) and (max-width: 1024px) {*/
+    .player-xlg .p-b-sec-1 .heart-track>.material-icons,
+    .player-xlg .p-b-sec-1 .p-i-p>.material-icons {
+        font-size: 40px;
+    }
+
+    .player-xlg .p-b-sec-2>.track-title .track-tile-text {
+        font-size: 27px;
+    }
+
+    .player-xlg .p-b-sec-2>.track-ctrl .time-slider>.time-disp {
+        font-size: 19px;
+    }
+
+    .player-xlg .p-b-sec-2>.track-ctrl .track-op>.track-play-pause {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+
+    .player-xlg .p-b-sec-2>.track-ctrl .track-op>.track-next>.material-icons {
+        font-size: 48px;
+    }
+
+    .player-xlg .p-b-sec-2>.track-ctrl .track-op>.track-prev>.material-icons {
+        font-size: 48px;
+    }
+
+    .player-xlg .p-b-sec-2>.track-ctrl .track-op>.track-play-pause .material-icons {
+        font-size: 85px;
+    }
+/*}*/
+
+/*@media all and (min-width: 1024px) and (max-width: 1280px) {*/
+    .player-xxlg .p-b-sec-1 .heart-track>.material-icons {
+        font-size: 45px;
+    }
+
+    .player-xxlg .p-b-sec-2>.track-title .track-tile-text {
+        font-size: 32px;
+    }
+
+    .player-xxlg .p-b-sec-2>.track-ctrl .time-slider>.time-disp {
+        font-size: 24px;
+    }
+
+    .player-xxlg .p-b-sec-2>.track-ctrl .track-op>.track-play-pause {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .player-xxlg .p-b-sec-2>.track-ctrl .track-op>.track-next>.material-icons {
+        font-size: 48px;
+    }
+
+    .player-xxlg .p-b-sec-2>.track-ctrl .track-op>.track-prev>.material-icons {
+        font-size: 48px;
+    }
+
+    .player-xxlg .p-b-sec-2>.track-ctrl .track-op>.track-play-pause .material-icons {
+        font-size: 85px;
+    }
+/*}*/
+
+
+/*@media all and (min-width: 350px) {*/
+    .player-sm .p-b-sec-2>.track-title,
+    .player-lg .p-b-sec-2>.track-title,
+    .player-xlg .p-b-sec-2>.track-title,
+    .player-xxlg .p-b-sec-2>.track-title {
+        padding-top: 15px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .time-slider,
+    .player-lg .p-b-sec-2>.track-ctrl .time-slider,
+    .player-xlg .p-b-sec-2>.track-ctrl .time-slider,
+    .player-xxlg .p-b-sec-2>.track-ctrl .time-slider {
+        padding-top: 15px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .track-op,
+    .player-lg .p-b-sec-2>.track-ctrl .track-op,
+    .player-xlg .p-b-sec-2>.track-ctrl .track-op,
+    .player-xxlg .p-b-sec-2>.track-ctrl .track-op {
+        padding-top: 15px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .vol-ctrl,
+    .player-lg .p-b-sec-2>.track-ctrl .vol-ctrl,
+    .player-xlg .p-b-sec-2>.track-ctrl .vol-ctrl,
+    .player-xxlg .p-b-sec-2>.track-ctrl .vol-ctrl {
+        padding-top: 40px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-up>.material-icons,
+    .player-lg .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-up>.material-icons,
+    .player-xlg .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-up>.material-icons,
+    .player-xxlg .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-up>.material-icons {
+        font-size: 20px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-down>.material-icons,
+    .player-lg .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-down>.material-icons,
+    .player-xlg .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-down>.material-icons,
+    .player-xxlg .p-b-sec-2>.track-ctrl .vol-ctrl>.vol-down>.material-icons {
+        font-size: 20px;
+    }
+/*}*/
+
+/*@media all and (max-width: 480px) {*/
+    .player-sm .p-b-sec-2>.track-ctrl .vol-ctrl>paper-slider,
+    .player-xsm .p-b-sec-2>.track-ctrl .vol-ctrl>paper-slider {
+        --paper-slider-height: 2px;
+    }
+
+    .player-sm .p-b-sec-2>.track-ctrl .time-slider .slider>paper-slider,
+    .player-xsm .p-b-sec-2>.track-ctrl .time-slider .slider>paper-slider {
+        --paper-slider-height: 3px;
+    }
+/*}*/
+
+/*@media all and (min-width: 480px) {*/
+    .player-lg .p-b-sec-2>.track-ctrl .vol-ctrl>paper-slider,
+    .player-xlg .p-b-sec-2>.track-ctrl .vol-ctrl>paper-slider,
+    .player-xxlg .p-b-sec-2>.track-ctrl .vol-ctrl>paper-slider {
+        --paper-slider-height: 3px;
+    }
+
+    .player-lg .p-b-sec-2>.track-ctrl .time-slider .slider>paper-slider,
+    .player-xlg .p-b-sec-2>.track-ctrl .time-slider .slider>paper-slider,
+    .player-xxlg .p-b-sec-2>.track-ctrl .time-slider .slider>paper-slider {
+        --paper-slider-height: 4px;
+    }
+/*}*/

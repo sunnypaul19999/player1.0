@@ -1,0 +1,287 @@
+@import './player-media-query.css';
+
+html, body {
+    width: 100%;
+    height: 100%;
+    --def-font-size: 16px;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+}
+
+.player-container {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    font-size: var(--def-font-size);
+}
+
+.player {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.player>.card {
+    width: 100%;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(230, 95, 65);
+    /*
+    background: radial-gradient(circle, rgba(230, 95, 65, 1) 1%, rgba(245, 90, 62, 1) 16%, rgba(236, 170, 157, 1) 67%, rgba(240, 183, 162, 1) 89%);
+    */
+    background: radial-gradient(circle, #417be6 1%, #3e7ef5 16%, #9db6ec 67%, #a2caf0 89%);
+}
+
+.player>.card>.card-body {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.p-b-sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.p-b-sec-1 .track-thumbnail {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-b-sec-1 .track-thumbnail>img[name="track_thumbnail"] {
+    width: 100%;
+    height: 100%;
+}
+
+.p-b-sec-1 .heart-track {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.p-b-sec-1 .heart-track>.material-icons {
+    color: #FE251B;
+    text-shadow: 0 0 6px #c5bdbc;
+}
+
+.p-b-sec-1 .p-i-p {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    text-shadow: 0 0 20px #0c0b0b;
+    color: white;
+}
+
+.p-b-sec-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-b-sec-2>.track-title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-b-sec-2>.track-title .track-tile-text {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.p-b-sec-2>.track-ctrl {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-b-sec-2>.track-ctrl .time-slider {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.p-b-sec-2>.track-ctrl .time-slider>.slider {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    --paper-slider-active-color: #3f4044;
+    --paper-slider-knob-color: #3f4044;
+    --paper-slider-secondary-color: gray;
+}
+
+.p-b-sec-2>.track-ctrl .time-slider .slider>paper-slider {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-b-sec-2>.track-ctrl .time-slider>.time-disp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #3f4044;
+    font-weight: 600;
+    margin-top: -11px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.p-b-sec-2>.track-ctrl .track-op {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.p-b-sec-2>.track-ctrl .track-op>.track-prev {
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.p-b-sec-2>.track-ctrl .track-op>.track-prev>.material-icons {
+    cursor: pointer;
+    color: #3f4044;
+    text-shadow: 0 0 5px gray;
+}
+
+.p-b-sec-2>.track-ctrl .track-op>.track-play-pause {
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.p-b-sec-2>.track-ctrl .track-op>.track-play-pause .material-icons.play {
+    transition-duration: 1000ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 100ms;
+    cursor: pointer;
+    color: #3f4044;
+    text-shadow: 0 0 5px gray;
+}
+
+.p-b-sec-2>.track-ctrl .track-op>.track-play-pause .material-icons.pause {
+    /*display: none;*/
+    transition-duration: 1000ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 100ms;
+    cursor: pointer;
+    color: #3f4044;
+    text-shadow: 0 0 5px gray;
+}
+
+.p-b-sec-2>.track-ctrl .track-op>.track-next {
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.p-b-sec-2>.track-ctrl .track-op>.track-next>.material-icons {
+    color: #3f4044;
+    text-shadow: 0 0 5px gray;
+    cursor: pointer;
+}
+
+.p-b-sec-2>.track-ctrl .vol-ctrl {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-b-sec-2>.track-ctrl .vol-ctrl>.vol-down {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.p-b-sec-2>.track-ctrl .vol-ctrl>.vol-down>.material-icons {
+    cursor: pointer;
+    color: #3f4044;
+    text-shadow: 0 0 5px gray;
+}
+
+.p-b-sec-2>.track-ctrl .vol-ctrl>paper-slider {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-b-sec-2>.track-ctrl .vol-ctrl>paper-slider {
+    --paper-slider-active-color: #3f4044;
+    --paper-slider-knob-color: #3f4044;
+    --paper-slider-secondary-color: gray;
+}
+
+.p-b-sec-2>.track-ctrl .vol-ctrl>.vol-up {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.p-b-sec-2>.track-ctrl .vol-ctrl>.vol-up>.material-icons {
+    cursor: pointer;
+    color: #3f4044;
+    text-shadow: 0 0 5px gray;
+}
